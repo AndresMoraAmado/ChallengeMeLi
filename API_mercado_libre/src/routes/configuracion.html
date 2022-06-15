@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proxy de APIs Mercado Libre</title>
+    </head>
+    <body>
+        <h1>Proxy de APIs Mercado Libre</h1>
+        <hr id="HR1" />
+                &nbsp;<label id="Message" forecolor="Red" font-bold="True" runat=server 
+             Font-Names="Tahoma" Font-Size="10pt">
+        </label>
+        <form action="/guardarconfig" class="form">
+            <table>
+                <tr>
+                    <td>
+                        <Label for="Lpeticiones">Numero de peticiones</Label>
+                    </td>
+                    <td>
+                        <input type="number" name="Npeticiones" min="1" max="99999" maxlength="6" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="Lsegundos">Tiempo (Segundos)</Label>
+                    </td>
+                    <td>
+                        <input type="number" name="Nsegundos" min="1" max="99999" maxlength="6" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="Lrutadest">Ruta Destino</Label>
+                    </td>
+                    <td>
+                        <input type="text" name="Nrutadest">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="btn">Guardar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "api_mercado_libre",
+  "version": "1.0.0",
+  "description": "API que permite retornar las categorias de productos de mercado libre",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrés Mora",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ioredis": "^5.0.6",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "redis": "^4.1.0"
+  }
+}
